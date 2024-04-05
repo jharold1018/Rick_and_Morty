@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.xtrafondos.com/wallpapers/resized/rick-and-morty-en-nave-4518.jpg?s=large);
+    background-image: fixed;
+}
+
+.titulo {
+    font-family: cursive;
+    text-align: center;
+    background-color:rgba(26, 23, 22, 0.794);
+    color: aliceblue;
+    text-shadow: 5px 2.5px 5px goldenrod;
+}
+
+.morty {
+    float: left;
+    width: 45px;
+    height: 45px;
+    top: 20px;
+    filter: drop-shadow(10px 5px 10px goldenrod);
+}
+
+.rick{
+    float: right;
+    width: 45px;
+    height: 45px;
+    top: 20px;
+    filter: drop-shadow(10px 5px 10px goldenrod);
+}
+
+h2 {
+    font-family: cursive;
+    color: aliceblue;
+    text-shadow: 5px 2.5px 5px goldenrod;
+}
+
+span {
+    font-family: cursive;
+    color: aliceblue;
+}
+
+article {
+    background-color:rgba(26, 23, 22, 0.794);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container {
+    width: 100%;
+}
+
+article {
+    padding: 10px;
+    box-shadow: 10px 5px 10px purple;
+    border-radius: 5%;
+}
+
+img {
+    border-radius: 5%;
+    width: 100%;
+}
